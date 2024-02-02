@@ -68,6 +68,7 @@ export default function App() {
           </li>
         ))}
       </ul>
+      <footer>Made with ❤️ by Aryan</footer>
     </>
   );
 }
