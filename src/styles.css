@@ -9,6 +9,23 @@
     max-width: 400px;
     padding: 1rem;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+  }
+
+  main {
+    flex: 1; /* This ensures the main content takes the remaining space */
+  }
+  
+  footer {
+    text-align: left;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
   }
   
   .new-item-form {
@@ -137,4 +154,8 @@
   
   .list li:has(input:checked) label:hover::before {
     background: hsl(200, 100%, 30%);
+  }
+
+  footer{
+    margin-top: 100%;
   }
